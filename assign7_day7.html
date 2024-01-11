@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<body>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <form>
+        <input list="Prefix" placeholder="Prefix">
+        <datalist id="Prefix">
+          <option value="Mr.">
+          <option value="Mrs.">
+          <option value="Ms.">
+        </datalist>
+        <input type="text" placeholder="First Name"> <!--here placeholder attribute just gives a label for the input-->
+        <input type="text" placeholder="Lastname"> <!--value attribute sets a default value-->
+        <br>
+        <br/>
+        <label for="Date of Birth">Date of Birth:</label>
+        <input type="date" id="Date of Birth">
+        <label for="YoP">YoP:</label>
+        <input type="text" placeholder="Year of Passing" id="YoP">
+        
+        <br/>
+        <br/>
+        <label for="email">Mail Id: </label>
+        <input type="email" id="email">
+        <label for="contact no">Mobile no:</label>
+        <input type="tel" id="contact no">
+        <br/>
+        <br/>
+        <span>Specialization:<span>
+        <input type="radio" id="Branch" name="Specialization" value="IT">
+        <label for="Branch">IT</label>
+        <input type="radio" id="Branch1" name="Specialization" value="non-IT">
+        <label for="Branch1">Non-IT</label>
+        <br/>
+        <br/>
+        <span>Any knowledge about following programming language:</span>
+        <input type="checkbox" id="P1" name="Python" value="Python">
+        <label for="P1">Python</label>
+        <input type="checkbox" id="P2" name="C++" value="C++">
+        <label for="P2">C++</label>
+        <input type="checkbox" id="P3" name="Java" value="Java">
+        <label for="P3">Java</label>
+        <br/>
+        <br/>
+
+
+        <div style="text-align: center;">
+            <input type="submit" value="Submit">
+            <input type="reset">
+
+        </div>
+        
+    </form>
+</body>
